@@ -19,8 +19,16 @@ End the program
 
 
 ## Program:
-![Screenshot 2024-09-03 181850](https://github.com/user-attachments/assets/e18ea26e-9b3e-49d3-ab42-f855e897b599)
+```
+#Program to find the eigen values and eigen vectors.
+#Developed by: MUKESH
+#RegisterNumber:212223230128
 
+import numpy as np
+A = np.array([[4,2],[2,4]])
+values, vectors = np.linalg.eig(A)
+print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+```
 
 ## Output:
 ![Screenshot 2024-09-03 181846](https://github.com/user-attachments/assets/c9cc4fc0-a77b-4285-ae7d-0dc8e64cc2c4)
